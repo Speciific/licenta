@@ -1,0 +1,12 @@
+- de inlocuit username cu mail
+
+
+- mail authentification
+
+- forgot password
+
+- about us
+
+-de inchis conexiunea cu baza de date(o clasa pt db)
+
+-keypass

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Continuu2Controller">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="600.0">
+         <left>
+            <AnchorPane fx:id="panelside" prefHeight="400.0" prefWidth="160.0" style="-fx-background-color: yellow;" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox fx:id="vbo" layoutX="30.0" layoutY="97.0" prefHeight="211.0" prefWidth="100.0" />
+                  <Button layoutX="47.0" layoutY="23.0" mnemonicParsing="false" text="Clase" />
+                  <Button layoutX="47.0" layoutY="60.0" mnemonicParsing="false" text="Button" />
+               </children></AnchorPane>
+         </left>
+         <top>
+            <AnchorPane prefHeight="45.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="194.0" layoutY="1.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="83.0" styleClass="menubar" stylesheets="@ButtonStyle.css" text="flux" />
+                  <Button layoutX="289.0" layoutY="1.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="83.0" styleClass="menubar" stylesheets="@ButtonStyle.css" text="Activitate" />
+                  <Button layoutX="385.0" layoutY="1.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="83.0" styleClass="menubar" stylesheets="@ButtonStyle.css" text="Persoane" />
+                  <Button fx:id="bar2" layoutX="7.0" layoutY="1.0" mnemonicParsing="false" onMouseClicked="#run2" prefHeight="44.0" prefWidth="83.0" text="Button2" />
+                  <Button fx:id="bar1" layoutX="7.0" layoutY="1.0" mnemonicParsing="false" onMouseClicked="#run1" prefHeight="44.0" prefWidth="83.0" text="Button1" />
+                  <ImageView fitHeight="31.0" fitWidth="33.0" layoutX="555.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@classroom.png" />
+                     </image></ImageView>
+
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="220.0" prefWidth="298.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="79.0" fitWidth="137.0" layoutX="181.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@classroom.png" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="33.0" layoutY="101.0" prefHeight="63.0" prefWidth="108.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="6.0" prefHeight="17.0" prefWidth="34.0" text="MEET" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="21.0" layoutY="141.0" prefHeight="200.0" prefWidth="86.0">
+                     <children>
+                        <AnchorPane layoutX="14.0" layoutY="37.0" prefHeight="63.0" prefWidth="108.0">
+                           <children>
+                              <Label layoutX="14.0" layoutY="6.0" prefHeight="17.0" text="Upcoming" />
+                           </children>
+                        </AnchorPane>
+                     </children></AnchorPane>
+                  <VBox layoutX="141.0" layoutY="171.0" prefHeight="170.0" prefWidth="288.0" />
+                  <Label layoutX="153.0" layoutY="101.0" prefHeight="50.0" prefWidth="266.0" text="Anunta ceva pe clasa" />
+               </children></AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
